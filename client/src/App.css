@@ -1,6 +1,12 @@
 body {
   width: 50%;
   margin: 0 auto;
+  background: linear-gradient(
+    90deg,
+    rgba(47, 241, 177, 1) 0%,
+    rgba(254, 255, 254, 1) 71%,
+    rgba(244, 244, 244, 1) 98%
+  );
 }
 
 header {
@@ -10,7 +16,7 @@ header {
 
 header h1 {
   font-size: 100px;
-  color: #641a85;
+  color: #15021e;
   font-weight: 200;
 }
 
@@ -21,9 +27,9 @@ header h1 {
   text-align: center;
   font-size: 20px;
   color: #2c3e50;
-  background-color: #608ab5;
+  /* background-color: #608ab5; */
   padding: 5px;
-  border-radius: 5px;
+  /* border-radius: 5px; */
 }
 
 input {
@@ -34,10 +40,11 @@ input {
   outline: none;
   border-bottom: 1px solid #2c3e50;
   padding: 5px;
+  background: transparent;
 }
 
 .task {
-  background-color: #34495e;
+  background-color: #292929;
   padding: 15px;
   margin: 5px;
   overflow-x: hidden;
